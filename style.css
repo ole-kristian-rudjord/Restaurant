@@ -94,12 +94,15 @@ body {
   border: rgba(29, 66, 58, 0.2) solid 1px;
   padding: 2px;
   background-color: rgba(153, 212, 153, 0.5);
+  transition: 0.2s ease-in-out;
+}
+.Lunches:hover {
+  box-shadow: 0 2px 0 0 rgb(29, 66, 58);
 }
 .allergies {
   font-size: 0.9rem;
   color: rgb(29, 66, 58);
 }
 .Lunch-Lunches img {
-  height: 420px;  /*bruk egentlig "width" men det siste bildet har en annen standard height*/
-} 
-
+  width: 420px;
+}
