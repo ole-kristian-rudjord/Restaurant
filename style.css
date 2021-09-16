@@ -7,6 +7,10 @@
   font-weight: 400;
 }
 
+body {
+  padding-top: 80px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -16,6 +20,7 @@
   height: 70px;
   background-color: rgb(153, 212, 153);
   border-bottom: rgb(29, 66, 58) solid 2px;
+  top: 0;
 }
 
 #logo {
@@ -69,3 +74,32 @@
   border-bottom: rgb(29, 66, 58) solid 2px;
   background-color:rgba(29, 66, 58, 0.1);
 }
+
+
+.Lunch-Div h1{
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.Lunch-Lunches {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.Lunches {
+  border: rgba(29, 66, 58, 0.2) solid 1px;
+  padding: 2px;
+  background-color: rgba(153, 212, 153, 0.5);
+}
+.allergies {
+  font-size: 0.9rem;
+  color: rgb(29, 66, 58);
+}
+.Lunch-Lunches img {
+  height: 420px;  /*bruk egentlig "width" men det siste bildet har en annen standard height*/
+} 
+
