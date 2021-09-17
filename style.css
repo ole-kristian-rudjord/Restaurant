@@ -8,7 +8,7 @@
 }
 
 body {
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 .navbar {
@@ -24,7 +24,7 @@ body {
 }
 
 #logo {
-  margin-left: 10%;
+  margin-left: 17%;
 }
 #logo img {
   width: 40px;
@@ -47,11 +47,11 @@ body {
 }
 #logo a:hover {
   border-bottom: rgb(29, 66, 58) solid 3px;
-  background-color: rgba(29, 66, 58, 0.1);
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .navbar ul {
-  margin-right: 10%;
+  margin-right: 13%;
 }
 .navbar ul li{
   margin-left: 2px;
@@ -72,37 +72,46 @@ body {
 }
 .navbar ul li a:hover {
   border-bottom: rgb(29, 66, 58) solid 2px;
-  background-color:rgba(29, 66, 58, 0.1);
+  background-color:rgba(0, 0, 0, 0.06);
 }
 
+hr {
+  height: 2px;
+  background-color: rgba(29, 66, 58, 0.2);
+  border: none;
+}
 
-.Lunch-Div h1{
-  font-size: 2rem;
-  font-weight: 600;
+h1{
+  color: rgb(29, 66, 58);
+  font-size: 2.2rem;
+  font-weight: 500;
   text-align: center;
-  padding-top: 2%;
   padding-bottom: 2%;
 }
-.Lunch-Lunches {
+.Dish-Div {
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+.Dish-Full {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
   margin: 0 auto;
 }
-.Lunches {
+.Dishes-Individual {
   border: rgba(29, 66, 58, 0.2) solid 1px;
   padding: 2px;
   background-color: rgba(153, 212, 153, 0.5);
   transition: 0.2s ease-in-out;
 }
-.Lunches:hover {
+.Dishes-Individual:hover {
   box-shadow: 0 2px 0 0 rgb(29, 66, 58);
 }
 .allergies {
   font-size: 0.9rem;
   color: rgb(29, 66, 58);
 }
-.Lunch-Lunches img {
+.Dish-Full img {
   width: 420px;
 }
