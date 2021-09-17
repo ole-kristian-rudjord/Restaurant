@@ -17,7 +17,8 @@ body {
   align-items: center;
   position: fixed;
   width: 100%;
-  height: 70px;
+  height: 10%;
+  max-height: 70px;
   background-color: rgb(153, 212, 153);
   border-bottom: rgb(29, 66, 58) solid 2px;
   top: 0;
@@ -25,10 +26,6 @@ body {
 
 #logo {
   margin-left: 17%;
-}
-#logo img {
-  width: 40px;
-  border-radius: 50%;
 }
 #logo a {
   color: rgb(29, 66, 58);
@@ -75,9 +72,22 @@ body {
   background-color:rgba(0, 0, 0, 0.06);
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background:rgb(153, 212, 153);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(29, 66, 58);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(29, 66, 58, 0.5);
+}
+
 hr {
   height: 2px;
-  background-color: rgba(29, 66, 58, 0.2);
+  background-color: rgba(0, 0, 0, 0.06);
   border: none;
 }
 
@@ -100,8 +110,9 @@ h1{
   margin: 0 auto;
 }
 .Dishes-Individual {
-  border: rgba(29, 66, 58, 0.2) solid 1px;
+  width: 28%;
   padding: 2px;
+  border: rgba(29, 66, 58, 0.2) solid 1px;
   background-color: rgba(153, 212, 153, 0.5);
   transition: 0.2s ease-in-out;
 }
@@ -113,5 +124,5 @@ h1{
   color: rgb(29, 66, 58);
 }
 .Dish-Full img {
-  width: 420px;
+  width: 100%;
 }
