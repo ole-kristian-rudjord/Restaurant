@@ -108,10 +108,10 @@ body {
   font-weight: 500;
   color: rgb(29, 66, 58);
 }
-.Dish-Header {
+/* .Dish-Header {
   margin-top: -180px;
   padding-top: 180px;
-} 
+}  */
 .Menu-List a {
   font-size: 1rem;
   text-decoration: none;
