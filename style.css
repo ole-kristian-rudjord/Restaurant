@@ -50,12 +50,12 @@ body {
 .navbar ul {
   margin-right: 13%;
 }
-.navbar ul li{
+.navbar li{
   margin-left: 2px;
   list-style: none;
   display: inline-block;
 }
-.navbar ul li a {
+.navbar a {
   color: rgb(29, 66, 58);
   font-size: 1rem;
   text-decoration: none;
@@ -64,10 +64,10 @@ body {
   border-bottom: transparent solid 2px;
   transition: all 0.8s ease;
 }
-.navbar ul li a:visited a:active {
+.navbar a:visited a:active {
   color: inherit;
 }
-.navbar ul li a:hover {
+.navbar a:hover {
   border-bottom: rgb(29, 66, 58) solid 2px;
   background-color:rgba(0, 0, 0, 0.06);
 }
@@ -85,9 +85,45 @@ body {
   background: rgba(29, 66, 58, 0.5);
 }
 
+.Menu-List {
+  position: fixed;
+  margin: 1%;
+}
+.Menu-List ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  width: 80px;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: rgba(153, 212, 153, 0.5);
+}
+.Menu-List li {
+  list-style: none;
+}
+.Move-To {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(29, 66, 58);
+}
+.Menu-List a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 4px;
+  color: rgb(29, 66, 58);
+  transition: all 0.4s;
+}
+.Menu-List a:hover {
+  background-color:rgba(29, 66, 58, 0.5);
+}
+
 hr {
-  height: 2px;
-  background-color: rgba(0, 0, 0, 0.06);
+  height: 1px;
+  background-color: rgba(153, 212, 153, 0.5 );
   border: none;
 }
 
@@ -99,7 +135,7 @@ h1{
   padding-bottom: 2%;
 }
 .Dish-Div {
-  margin-top: 5%;
+  margin-top: 6%;
   margin-bottom: 8%;
 }
 .Dish-Full {
