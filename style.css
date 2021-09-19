@@ -9,6 +9,11 @@
 
 body {
   padding-top: 70px;
+
+  /* min-height: 100vh;
+
+  display: flex;
+  flex-direction: column; */
 }
 
 .navbar {
@@ -72,6 +77,37 @@ body {
   background-color:rgba(0, 0, 0, 0.06);
 }
 
+.Footer {
+  display: flex;
+  background-color: rgb(153, 212, 153);
+  border-top: rgb(29, 66, 58) solid 1px;
+  width: 100%;
+  height: 50px;
+  margin-top: auto;
+}
+#Footer-Inside-Contact {
+  position: fixed;
+  bottom: 0;
+}
+.Footer-Full {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+.Footer-Div {
+  display: inline-flex;
+  color: rgb(29, 66, 58);
+  font-size: 1rem;
+}
+.Footer-Div a {
+  font-weight: 500;
+  color: rgb(29, 66, 58);
+}
+.Footer-Div a:visited a:active {
+  color: inherit;
+}
+
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -85,47 +121,13 @@ body {
   background: rgba(29, 66, 58, 0.5);
 }
 
-.Menu-List {
-  position: fixed;
-  margin: 1%;
-}
-.Menu-List ul {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  height: 120px;
-  width: 80px;
-  padding: 4px;
-  border-radius: 4px;
-  background-color: rgba(153, 212, 153, 0.5);
-}
-.Menu-List li {
-  list-style: none;
-}
-.Move-To {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: rgb(29, 66, 58);
-}
-.Menu-List a {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 4px;
-  border-radius: 4px;
-  margin: 4px;
-  color: rgb(29, 66, 58);
-  transition: all 0.4s;
-}
-.Menu-List a:hover {
-  background-color:rgba(29, 66, 58, 0.5);
-}
-
-
 hr {
   height: 1px;
   background-color: rgba(153, 212, 153, 0.5 );
   border: none;
+}
+#hr1 {
+  margin-top: -70px;
 }
 
 h1{
@@ -136,7 +138,7 @@ h1{
   padding-bottom: 2%;
 }
 .Dish-Div {
-  margin-top: 6%;
+  margin-top: 8%;
   margin-bottom: 8%;
 }
 .Dish-Full {
@@ -157,11 +159,47 @@ h1{
   box-shadow: 0 2px 0 0 rgb(29, 66, 58);
 }
 .allergies {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: rgb(29, 66, 58);
 }
 .Dish-Full img {
   width: 100%;
+}
+
+.Menu-List {
+  position: fixed;
+  margin: 10px;
+}
+.Menu-List ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 125px;
+  width: 80px;
+  padding: 4px;
+  background-color: rgba(153, 212, 153, 0.5);
+  border: rgba(29, 66, 58, 0.2) solid 1px;
+}
+.Menu-List li {
+  list-style: none;
+}
+.Move-To {
+  font-size: 0.9rem;
+  color: rgb(29, 66, 58);
+}
+.Menu-List a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 4px;
+  color: rgb(29, 66, 58);
+  border: transparent solid 1px;
+  transition: all 0.4s;
+}
+.Menu-List a:hover {
+  /* background-color:rgba(29, 66, 58, 0.5); */
+  border: rgb(29, 66, 58) solid 1px;
 }
 
 .Contact-Form {
