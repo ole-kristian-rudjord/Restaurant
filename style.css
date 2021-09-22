@@ -271,6 +271,7 @@ input:focus, textarea:focus {
   width: 30%;
 }
 
+
 .Contact-Submit input:hover {
   border-bottom: rgb(0, 48, 87) solid 2px;
 }
