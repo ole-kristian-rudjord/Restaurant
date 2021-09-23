@@ -8,7 +8,7 @@
 }
 
 body {
-  padding-top: 70px;
+  padding-top: 7vh;
   /* background-image: url("img/BackgroundImageWood.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -21,8 +21,7 @@ body {
   align-items: center;
   position: fixed;
   top: 0;
-  height: 10%;
-  max-height: 70px;
+  height: 7vh;
   width: 100%;
   background-color: rgb(255, 255, 255);
   border-bottom: rgb(0, 48, 87) solid 2px;
@@ -90,7 +89,8 @@ body {
   background-color: rgb(255, 255, 255);
   border-top: rgb(0, 48, 87) solid 1px;
 }
-#Footer-Inside-Contact, #Footer-Inside-Location {
+#Footer-Inside-Contact, 
+#Footer-Inside-Location {
   position: fixed;
   bottom: 0;
 }
@@ -142,10 +142,10 @@ hr {
   text-align: center;
   color: rgb(0, 0, 0);
   padding-bottom: 2%;
+  margin-top: 8%;
 }
 .Dish-Div {
-  margin-top: 8%;
-  margin-bottom: 8%;
+  height: 93vh;
 }
 .Dish-Full {
   display: flex;
@@ -156,7 +156,8 @@ hr {
 }
 .Dishes-Individual {
   line-height: 2rem;
-  width: 28%;
+  width: 420px;
+  max-width: 32%;
   padding: 2px;
   outline: rgba(0, 48, 87, 0.5) solid 1px;
   border-bottom: transparent solid 2px;
