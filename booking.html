@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>CFood - Booking</title>
+</head>
+<body>
+
+    <h1 class="Booking-Header">Ønsker du å spise hos oss?</h1>
+    <h2 class="Booking-Header2"> Bestill bord med skjemaet under, eller ring oss på 00000000</h2>
+
+    <nav class="navbar">
+        <div id="logo">
+          <a href="index.html"><h1>CFood</h1></a>
+        </div>
+        <ul>
+          <li><a href="index.html">Menu</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+    <div class="bookingcontainer">
+        <h1 class="Booking-Header">Bordbestilling</h1>
+        <form action="action_page.php">
+
+            <label for="fname">Fornavn</label>
+            <input type="text" id="fname" name="firstname" placeholder="Fornavn">
+
+            <label for="lname">Etternavn</label>
+            <input type="text" id="lname" name="lastname" placeholder="Etternavn">
+
+            <label for="tlfnr">Telefonnr</label>
+            <input type="text" id="tlfnr" name="Telefon nummer" placeholder="Ditt telefonnr">
+
+            <label for="Epost">Epost</label>
+            <input type="text" id="Epost" name="Epost" placeholder="Din epostadresse">
+
+            <label for="nrofpeople">Antall personer</label>
+            <input type="text" id="nrofpeople" name="numberofpeople" placeholder="Antall personer">
+
+            <label for="dato">Ønsket dato og klokkeslett</label>
+            <input type="datetime-local" id="dato" name="dato">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
