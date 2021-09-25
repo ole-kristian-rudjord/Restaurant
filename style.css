@@ -136,6 +136,9 @@ hr {
   margin-top: -70px;
 }
 
+.Dish-Div {
+  height: 93vh;
+}
 .Dish-Header {
   font-size: 2.2rem;
   font-weight: 500;
@@ -143,9 +146,6 @@ hr {
   color: rgb(0, 0, 0);
   padding-bottom: 2%;
   margin-top: 8%;
-}
-.Dish-Div {
-  height: 93vh;
 }
 .Dish-Full {
   display: flex;
@@ -157,7 +157,8 @@ hr {
 .Dishes-Individual {
   line-height: 2rem;
   width: 420px;
-  max-width: 32%;
+  max-width: 25%; /*used to be 32%, might change later*/
+  min-height: 450px;
   padding: 2px;
   outline: rgba(0, 48, 87, 0.5) solid 1px;
   border-bottom: transparent solid 2px;
@@ -233,6 +234,47 @@ hr {
   height: 100%;
   width: 100%;
 }
+
+
+.Booking-Header {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.Booking-Header2 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.bookingcontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 650px;
+  padding: 0;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: rgba(29, 66, 58, 0.2) solid 1px;
+  background-color: rgba(0, 70, 150, 0.1);
+}
+.bookingcontainer input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #201c00;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
 
 .Contact-Form {
   display: flex;
