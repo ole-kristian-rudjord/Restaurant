@@ -15,6 +15,10 @@ body {
   background-attachment: fixed; */
 }
 
+#bookingbody {
+  background-image: url(img/BackgroundServedTable.jpg);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
