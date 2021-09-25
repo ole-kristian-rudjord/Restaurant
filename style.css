@@ -140,6 +140,9 @@ hr {
   margin-top: -70px;
 }
 
+.Dish-Div {
+  height: 93vh;
+}
 .Dish-Header {
   font-size: 2.2rem;
   font-weight: 500;
@@ -147,9 +150,6 @@ hr {
   color: rgb(0, 0, 0);
   padding-bottom: 2%;
   margin-top: 8%;
-}
-.Dish-Div {
-  height: 93vh;
 }
 .Dish-Full {
   display: flex;
@@ -161,7 +161,8 @@ hr {
 .Dishes-Individual {
   line-height: 2rem;
   width: 420px;
-  max-width: 32%;
+  max-width: 25%; /*used to be 32%, might change later*/
+  min-height: 450px;
   padding: 2px;
   outline: rgba(0, 48, 87, 0.5) solid 1px;
   border-bottom: transparent solid 2px;
@@ -238,6 +239,10 @@ hr {
   width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9a3e885aa0f5350e459f9f6a36d2de1351335d29
 .Booking-Header {
   font-size: 2rem;
   text-align: center;
