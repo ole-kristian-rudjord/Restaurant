@@ -10,44 +10,54 @@
 </head>
 <body>
 
-    <h1 class="Booking-Header">Ønsker du å spise hos oss?</h1>
-    <h2 class="Booking-Header2"> Bestill bord med skjemaet under, eller ring oss på 00000000</h2>
-
-    <nav class="navbar">
-        <div id="logo">
-          <a href="index.html"><h1>CFood</h1></a>
-        </div>
-        <ul>
-          <li><a href="index.html">Menu</a></li>
-          <li><a href="location.html">Location</a></li>
-          <li><a href="booking.html">Booking</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-
-    <div class="bookingcontainer">
-        <h1 class="Booking-Header">Bordbestilling</h1>
-        <form action="action_page.php">
-
-            <label for="fname">Fornavn</label>
-            <input type="text" id="fname" name="firstname" placeholder="Fornavn">
-
-            <label for="lname">Etternavn</label>
-            <input type="text" id="lname" name="lastname" placeholder="Etternavn">
-
-            <label for="tlfnr">Telefonnr</label>
-            <input type="text" id="tlfnr" name="Telefon nummer" placeholder="Ditt telefonnr">
-
-            <label for="Epost">Epost</label>
-            <input type="text" id="Epost" name="Epost" placeholder="Din epostadresse">
-
-            <label for="nrofpeople">Antall personer</label>
-            <input type="text" id="nrofpeople" name="numberofpeople" placeholder="Antall personer">
-
-            <label for="dato">Ønsket dato og klokkeslett</label>
-            <input type="datetime-local" id="dato" name="dato">
-
-            <input type="submit" value="Submit">
-        </form>
+  <nav class="navbar">
+      <div id="logo">
+      <a href="index.html"><h1>CFood</h1></a>
     </div>
+    <ul>
+      <li><a href="index.html">Menu</a></li>
+      <li><a href="location.html">Location</a></li>
+      <li><a href="booking.html">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h1 class="Booking-Header1">Do you want to eat at CFood?</h1>
+  <h2 class="Booking-Header2">Reserve a table with the form below, or call us at <a id="Booking-PhoneNumberLink" href="tel:939-20-001">939 20 001</a></h2>
+
+  <form class="Booking-Form">
+    <h3 class="Booking-Header3">Booking</h3>
+    <!-- <label for="fname">Fornavn</label> -->
+    <input type="text" id="fname" name="firstname" placeholder="Name:">
+    <!-- <label for="lname">Etternavn</label> -->
+    <!-- <input type="text" id="lname" name="lastname" placeholder="Etternavn"> -->
+    <!-- <label for="tlfnr">Telefonnr</label> -->
+    <input type="text" id="tlfnr" name="Telefon nummer" placeholder="Phone number:">
+    <!-- <label for="Epost">Epost</label> -->
+    <input type="text" id="Epost" name="Epost" placeholder="Email:">
+    <!-- <label for="nrofpeople">Antall personer</label> -->
+    <input type="text" id="nrofpeople" name="numberofpeople" placeholder="Number of people:">
+    <!-- <label for="dato">Ønsket dato og klokkeslett</label> -->
+    <input id="Booking-Dato" type="datetime-local" id="dato" name="dato">
+    <div class="Booking-Submit">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+
+  <footer class="Footer" id="Footer-Inside-Booking">
+    <div class="Footer-Full">
+      <div class="Footer-Div">
+        <p>Address:&#160&#160</p>
+        <a href="https://www.google.com/maps/place/Oslo+Metropolitan+University/@59.9206912,10.7349496,16z/data=!4m9!1m2!2m1!1sOslomet!3m5!1s0x46416e7913e2a529:0xd5e2f570195d26b4!8m2!3d59.9211067!4d10.7330359!15sCgdPc2xvbWV0kgEKdW5pdmVyc2l0eQ" target="_blank">ExampleAddress</a>
+      </div>
+      <div class="Footer-Div">
+        <p>Email:&#160&#160</p>
+        <a href="mailto:Restaurant@Example.com" target="_blank">Restaurant@Example.com</a>
+      </div>
+      <div class="Footer-Div">
+        <p>Number:&#160&#160</p>
+        <a href="tel:939-20-001">939 20 001</a>
+      </div>
+    </div>
+  </footer>
 </body>
