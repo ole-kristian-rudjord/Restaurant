@@ -48,6 +48,7 @@ Report
   position: fixed;
   top: 0;
   height: 7vh;
+  min-height: 50px;
   width: 100%;
   background-color: rgb(255, 255, 255);
   border-bottom: rgb(0, 48, 87) solid 2px;
@@ -345,7 +346,7 @@ hr {
   width: 70%;
   padding: 20px;
   padding-bottom: 18px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   outline: rgba(0, 48, 87, 0.5) solid 1px;
   border: none;
   border-bottom: transparent solid 2px;
@@ -390,7 +391,7 @@ hr {
   width: 70%;
   padding: 20px;
   padding-bottom: 18px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   outline: rgba(0, 48, 87, 0.5) solid 1px;
   border: none;
   border-bottom: transparent solid 2px;
