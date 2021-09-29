@@ -23,8 +23,7 @@ body {
   background-attachment: fixed;
 } */
 
-/* 
----LIST OF SECTIONS---
+/*---LIST OF SECTIONS---
 NavBar
   /NavBar logo
   /NavBar list
@@ -36,7 +35,8 @@ Dishes
 Location
 Booking
 Contact
-*/
+Report 
+--------------------*/
 
 /*--------------------
     Start of NavBar
@@ -52,7 +52,7 @@ Contact
   background-color: rgb(255, 255, 255);
   border-bottom: rgb(0, 48, 87) solid 2px;
 }
-/* Navbar logo (on the right side) */
+/* Navbar logo (on the left side) */
 #logo {
   margin-left: 17%;
 }
@@ -81,9 +81,9 @@ Contact
   border: rgb(0, 48, 87) solid 2px;
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* Navbar list (on the left side) */
+/* Navbar list (on the right side) */
 .navbar ul {
-  margin-right: 13%;
+  margin-right: 7%;
 }
 .navbar li {
   list-style: none;
@@ -141,9 +141,14 @@ Contact
 .Footer-Div a {
   font-weight: 500;
   color: rgb(0, 70, 150);
+  white-space: nowrap;
 }
 .Footer-Div a:visited a:active {
   color: inherit;
+}
+.Footer-Div a:hover {
+  outline: rgba(0, 70, 150, 0.5) solid 1px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 /*--------------------
     End of Footer
@@ -204,7 +209,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  margin: 0 auto;
+  margin: auto;
 }
 .Dishes-Individual {
   line-height: 2rem;
@@ -213,13 +218,13 @@ hr {
   min-height: 450px;
   padding: 2px;
   outline: rgba(0, 48, 87, 0.5) solid 1px;
-  border-bottom: transparent solid 2px;
+  /* border-bottom: transparent solid 2px; */
   background-color: rgba(0, 70, 150, 0.1);
   transition: 0.2s ease-in-out;
 }
-.Dishes-Individual:hover {
+/* .Dishes-Individual:hover {
   border-bottom: rgb(0, 48, 87) solid 2px;
-}
+} */
 .allergies {
   font-size: 0.9rem;
 }
@@ -274,8 +279,12 @@ hr {
   margin-top: 2%;
   margin-bottom: 1%;
 }
-#Location-Span2 {
+#Location-Span1 {
   font-size: 2rem;
+  font-weight: 500;
+}
+#Location-Span2 {
+  font-size: 1.3rem;
 }
 .Location-Div {
   height: 520px;
@@ -399,4 +408,37 @@ hr {
 }
 /*--------------------
     End of Contact
+--------------------*/
+
+/*--------------------
+    Start of Report
+--------------------*/
+.Report-Div {
+  width: 40%;
+  margin: auto;
+}
+.Report-Div h1 {
+  font-size: 2rem;
+  margin: 3vh;
+  text-align: center;
+}
+.Report-Div p {
+  margin-bottom: 2vh;
+}
+.Report-MadeBy {
+  margin: 5vh 0;
+  line-height: 2rem;
+}
+.Report-MadeBy h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1vh;
+}
+.Report-MadeBy ul {
+  list-style: none;
+}
+.Report-MadeBy li {
+  font-size: 1.1rem;
+}
+/*--------------------
+    End of Report
 --------------------*/
