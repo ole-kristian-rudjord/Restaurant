@@ -9,19 +9,7 @@
 
 body {
   padding-top: 7vh;
-  /* background-image: url("img/BackgroundImageWood.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
 }
-
-/* Bakgrunnsbildet gjør at header teksten blir utydelig på grunn av at bildet har mange ulike farger og det varierer mellom hvor lyse og mørke de er. */
-/* #Booking-Body {
-  background-image: url("img/BackgroundServedTable.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-} */
 
 /*---LIST OF SECTIONS---
 NavBar
