@@ -1,4 +1,4 @@
-Link to live page: https://ole-kristian-haaseth-rudjord.github.io/Restaurant/index.html
+Link to live page: https://ole-kristian-haaseth-rudjord.github.io/Restaurant/
 
 Group name: 
 Web2Go
